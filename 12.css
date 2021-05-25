@@ -1,0 +1,43 @@
+h1{text-align: center;
+    padding :10px 10px;
+     border:2px solid Tomato;
+    color:rgb(220, 248, 59);
+    font-size:30px;
+    
+}
+.lo_img{
+    float:left;
+}
+.li{
+    display: none;
+} .lo_img:hover{
+    display: none;
+}
+.lo_img:hover+.li{
+    display:block;
+    color:rgb(255, 0, 0);
+    font-style: italic,bold;
+    font-size:20px;
+}
+
+p:hover{
+    color:aquamarine;
+    font-size: 30px;
+    font-style:italic;
+}
+p{font-size: 30px;
+    color:aquamarine;
+}
+blockquote{
+    font-size: 20px;
+    color:brown;
+}
+body{
+    background-color:rgb(202, 175, 228);
+    background-repeat: no-repeat;
+    background-image: url('.//New folder (2)/Screenshot (5).jpg');
+}
+blockquote:hover{
+    color:rgb(255, 0, 0);
+    font-style: italic;
+}
