@@ -3,6 +3,7 @@ h1{text-align: center;
      border:2px solid Tomato;
     color:rgb(220, 248, 59);
     font-size:30px;
+    font-style:italic,bold;
     
 }
 .lo_img{
@@ -30,12 +31,12 @@ p{font-size: 30px;
 }
 blockquote{
     font-size: 20px;
-    color:brown;
+    color:rgb(0, 238, 255);
 }
 body{
     background-color:rgb(202, 175, 228);
     background-repeat: no-repeat;
-    background-image: url('.//New folder (2)/Screenshot (5).jpg');
+    background-image: url('.//img/bg.jpg');
     background-size: cover;
 }
 blockquote:hover{
@@ -45,4 +46,11 @@ blockquote:hover{
 table, th, td {
     border: 1px solid rgb(150, 66, 66);
     border-collapse: collapse;
+    background-color: rgba(217, 231, 245, 0.5);
+
   }
+#ti{
+      font-size: 15PX;
+      font-family: 'Times New Roman';
+      color:blanchedalmond;
+    }
