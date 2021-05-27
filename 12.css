@@ -56,3 +56,9 @@ table, th, td {
       font-family: 'Times New Roman';
       color:blanchedalmond;
     }
+  #t1 tr:nth-child(even) {
+        background-color: rgb(243, 220, 220);
+      }
+   #t1 tr:nth-child(odd) {
+        background-color: #fff;
+      }
