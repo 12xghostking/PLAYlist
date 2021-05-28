@@ -45,7 +45,7 @@ blockquote:hover{
     color:rgb(255, 0, 0);
     font-style: italic;
 }
-table, th, td {
+table,th, td{
     border: 1px solid rgb(150, 66, 66);
     border-collapse: collapse;
     background-color: rgba(217, 231, 245, 0.5);
@@ -90,4 +90,8 @@ table, th, td {
       
       li a:hover {
         background-color: #111111;
+        
       }
+    tr{
+      color:rgb(41, 95, 95);
+    }
