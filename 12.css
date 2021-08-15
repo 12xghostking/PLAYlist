@@ -5,7 +5,7 @@ h1{text-align: center;
     padding :10px 10px;
      border:2px solid Tomato;
     color:rgb(220, 248, 59);
-    font-size:3vw;
+    font-size:30px;
     font-style:italic,bold;
     background-color: rgba(255, 235, 205,0.5);
     
@@ -22,20 +22,20 @@ h1{text-align: center;
     display:block;
     color:rgb(255, 0, 0);
     font-style: italic,bold;
-    font-size:2vw;
+    font-size:15px;
 }
 
 p:hover{
     color:aquamarine;
-    font-size: 2vw;
+    font-size: 15px;
     font-style:italic;
 }
-p{font-size: 2vw;
+p{font-size: 15px;
     color:aquamarine;
 }
 blockquote{
   text-shadow: 2px 2px 5px rgb(128, 0, 255);
-    font-size: 2vw;
+    font-size: 15px;
     color:rgb(0, 238, 255);
 }
 body{
@@ -75,7 +75,7 @@ table,th, td{
       }
     #lip
     {
-        font-size: 15vwpx;
+        font-size: 15px;
         font-style:bold;
       }
       ul {
