@@ -10,32 +10,46 @@ h1{text-align: center;
     background-color: rgba(255, 235, 205,0.5);
     
 }
-.lo_img{
+#lo_img{
     float:left;
+    height: auto;
+    width: auto;
+    
 }
-.li{
-    display: none;
-} .lo_img:hover{
-    display: none;
+.li{position: relative;
+   
+    
 }
-.lo_img:hover+.li{
+#lia{position:absolute;
+  display: none;
+  top: 50%;
+  width: 100%;
+}
+#lia:hover{
+  display: block;
+  color:rgb(255, 0, 0);
+   font-style: italic,bold;
+    font-size:20px;
+}
+#lo_img:hover~#lia{
     display:block;
-    color:rgb(255, 0, 0);
     font-style: italic,bold;
-    font-size:15px;
+    font-size:20px;
+    color:rgb(255, 0, 0);
+   
 }
 
 p:hover{
     color:aquamarine;
-    font-size: 15px;
+    font-size: 20px;
     font-style:italic;
 }
-p{font-size: 15px;
+p{font-size: 20px;
     color:aquamarine;
 }
 blockquote{
   text-shadow: 2px 2px 5px rgb(128, 0, 255);
-    font-size: 15px;
+    font-size: 20px;
     color:rgb(0, 238, 255);
 }
 body{
@@ -54,12 +68,16 @@ blockquote:hover{
   outline: outset 5px greenyellow;
   outline-offset: 2px;
 }
-table,th, td{
-    border: 1px solid rgb(150, 66, 66);
-    border-collapse: collapse;
+table, td{
+  
     background-color: rgba(217, 231, 245, 0.5);
 
   }
+  th{  border: 1px solid rgb(150, 66, 66);
+    border-collapse: collapse;
+    background-color: coral;
+  }
+
 #ti{
       font-size: 0.3vw;
       
@@ -67,15 +85,22 @@ table,th, td{
      text-indent: 320px;
       text-align: left;
     }
+
   #t1 tr:nth-child(even) {
         background-color: rgb(243, 220, 220);
       }
    #t1 tr:nth-child(odd) {
         background-color: #fff;
       }
+     #t1 tr:nth-child(even):hover{
+        background-color: blueviolet;
+      }
+      #t1 tr:nth-child(odd):hover {
+        background-color: rgb(168, 137, 223);
+      }
     #lip
     {
-        font-size: 15px;
+        font-size: 20px;
         font-style:bold;
       }
       ul {
@@ -105,6 +130,10 @@ table,th, td{
       }
     tr{
       color:rgb(41, 95, 95);
+    }
+    tr:hover{
+      background-color: blueviolet;
+
     }
     #bu{
       margin-left: auto;
