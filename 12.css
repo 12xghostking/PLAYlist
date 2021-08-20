@@ -1,6 +1,10 @@
 body{
   font-family:"bangers", sans-serif;
 }
+.o1{
+  position: relative;
+  top:100px;
+}
 h1{text-align: center;
     padding :10px 10px;
      border:2px solid Tomato;
@@ -80,10 +84,17 @@ table, td{
 
 #ti{
       font-size: 0.3vw;
-      
+     
       color:blanchedalmond;
-     text-indent: 320px;
+     text-indent: 500px;
       text-align: left;
+    }
+    #t1{
+       width: 50%;
+  height: 100px;
+  overflow: scroll;
+  position: relative;
+  left: 500px;
     }
 
   #t1 tr:nth-child(even) {
